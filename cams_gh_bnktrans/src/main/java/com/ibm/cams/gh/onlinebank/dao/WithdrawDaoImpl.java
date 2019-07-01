@@ -27,20 +27,22 @@ public class WithdrawDaoImpl implements Withdraw {
 			ResultSet results1 = ps1.executeQuery();
 			
 			while(results1.next()) {
-				withdraw withdraw1 = new withdraw
+				withdraw withdraw2 = new withdraw
 						(results1.getInt("withdrawID"),
 						 results1.getString("accountNumber"),
 						 results1.getString("accountType"),
 						 results1.getDouble("amount"),
 						 results1.getDate("transDate"),
 						 results1.getDouble("balance")
-						)
+						);
+				
+				withdraw1.add(withdraw2);
 			}
 			
 		}catch(SQLException e) {
 			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-//		return
+		return withdraw1;
 	}
 }
