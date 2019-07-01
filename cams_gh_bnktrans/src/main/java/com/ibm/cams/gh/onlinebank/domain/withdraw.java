@@ -11,6 +11,18 @@ public class withdraw {
 	private Date transDate;
 	private double balance;
 	
+	public withdraw() {
+		
+	} 
+	
+	public withdraw(int withdrawID,String accountNumber,String accountType , double amount,Date transDate,double balance) {
+		this.withdrawID = withdrawID;
+		this.accountNumber = accountNumber;
+		this.accountType = accountType;
+		this.amount =amount;
+		this.transDate=transDate;
+		this.balance=balance;
+	}
 	
 	public int getWithdrawID() {
 		return withdrawID;
