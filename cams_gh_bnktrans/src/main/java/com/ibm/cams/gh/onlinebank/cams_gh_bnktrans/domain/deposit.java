@@ -1,22 +1,21 @@
-package com.ibm.cams.gh.onlinebank.domain;
+package com.ibm.cams.gh.onlinebank.cams_gh_bnktrans.domain;
 
 import java.sql.Date;
 
-public class withdraw {
-	
-	private int withdrawID;
+public class deposit {
+
+	private String depositID;
 	private String accountNumber;
 	private String accountType;
 	private double amount;
 	private Date transDate;
 	private double balance;
 	
-	
-	public int getWithdrawID() {
-		return withdrawID;
+	public String getDepositID() {
+		return depositID;
 	}
-	public void setWithdrawID(int withdrawID) {
-		this.withdrawID = withdrawID;
+	public void setDepositID(String depositID) {
+		this.depositID = depositID;
 	}
 	public String getAccountNumber() {
 		return accountNumber;

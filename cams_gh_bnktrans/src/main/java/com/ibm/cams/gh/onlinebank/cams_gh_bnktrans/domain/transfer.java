@@ -1,4 +1,4 @@
-package com.ibm.cams.gh.onlinebank.domain;
+package com.ibm.cams.gh.onlinebank.cams_gh_bnktrans.domain;
 
 import java.sql.Date;
 

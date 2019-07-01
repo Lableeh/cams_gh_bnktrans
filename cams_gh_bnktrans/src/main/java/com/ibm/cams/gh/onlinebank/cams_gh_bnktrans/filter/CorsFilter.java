@@ -1,4 +1,4 @@
-package com.ibm.cams.gh.onlinebank.filter;
+package com.ibm.cams.gh.onlinebank.cams_gh_bnktrans.filter;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.ibm.cams.gh.onlinebank.dao;
+package com.ibm.cams.gh.onlinebank.cams_gh_bnktrans.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class Db2Connection {
 		String url = "jdbc:db2://";
 		String host = "dashdb-txn-sbox-yp-dal09-03.services.dal.bluemix.net";
 		String port = "50000";
-		String username = "	qsj46457";
+		String username = "qsj46457";
 		String password = "fb2-1x5sxgx1xgfn";
 		
 		try {
